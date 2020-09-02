@@ -27,7 +27,11 @@ This repo is created for my Web Apps course, further information will be updated
   ## Recommended Resources
   
   https://www.w3schools.com/html/html_intro.asp
+  
+  
   https://skyelearning.com/categories/75/web-design
+  
+  
   https://www.youtube.com/results?search_query=github+pages
   
   
