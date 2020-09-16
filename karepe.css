@@ -14,7 +14,7 @@ footer
     {
         background-color:rgb(231, 66, 191);
         height: 10vh;
-        width: 100%;
+        width: 50%;
         color: coral;
     
     }
@@ -45,7 +45,7 @@ nav ul li{
 }
  .main-nav li a
  {
-     color: blue;
+     color: A52A2A;
      text-decoration: none;
      padding: 5px 20px;
 font-family: 'Roboto';font-size: 22px;
@@ -54,7 +54,7 @@ font-family: 'Roboto';font-size: 22px;
 .mian-navLinks
 {
     
-    text-decoration: black;
+    text-decoration: E9967A;
     padding 6px 15x;
     border-top-left-radius: 0%;
 }
@@ -71,7 +71,7 @@ aside a {
 main {
     display: flex;
     flex-wrap: wrap;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 body {
