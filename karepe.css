@@ -32,9 +32,9 @@ footer
 }
 
 nav ul li{
-    display: inline-flex;
+    display: block;
     padding: 5px;
-    background-color: rgb(158, 235, 107);
+    background: rgba(238, 13, 13, 0.75);
     flex-basis: 15%;  
 }
 
@@ -62,11 +62,11 @@ aside a {
     display: block;
     padding: 20px;
     text-align: center;
-    border: 3px #454372 solid;
+    border: 3px #A9A9A9 solid;
     border-radius: 8px;
     margin: 5px;
     text-decoration: none;
-    color: #454372;
+    color: #006400;
 }
 main {
     display: flex;
