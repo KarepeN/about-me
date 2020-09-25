@@ -8,22 +8,12 @@
         <a href="PoundsToKgsConverter.html">Pounds To Kgs Converter</a>
 		 
     </nav>
-<h2>Converter</h2>
-<p>convert the value to Kilograms:</p>
-
-<p>
-  <label>Pounds</label>
-  <input id="inputPounds" type="number" placeholder="Pounds" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
-</p>
-<p>Kilograms: <span id="outputKilograms"></span></p>
-
-<script>
-function weightConverter(valNum) {
-  document.getElementById("outputKilograms").innerHTML=valNum/2.2046;
-  
-</script>
-<p id="converter">Converts Pounds to Kgs</p>
-<button type="button" onclick='document.getElementById("converter").innerHTML = valnum'>Weight Calculator!</button>
+    <p>
+      <label>Pounds</label>
+      <input id="inputPounds" type="number" placeholder="Pounds"
+      oninput="PoundsToKgs(this.value)" onchange="PoundsToKgs(this.value)">
+    </p>
+    <p>Grams: <span id="InKgs"></span></p>
 }
 
 </body>
