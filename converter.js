@@ -1,13 +1,12 @@
-
-const kilograms = document.getElementById('Kilograms');
-console.log(kilograms);
+const ki = document.getElementById('Ki');
+console.log(ki);
 const mycell = document.getElementById('mycell');
 
 
 function Conversion() {
     const F=ki.value;
     mycell.value= F*2.20462262185;
-    localStorage.setItem("Kilogram",kilograms.value);
+    localStorage.setItem("Kilogram",ki.value);
     localStorage.setItem("Pounds",mycell.value);
 };
 
@@ -18,5 +17,3 @@ function msg(){
 
     }
 }
-
-
