@@ -8,13 +8,42 @@
         <a href="PoundsToKgsConverter.html">Pounds To Kgs Converter</a>
 		 
     </nav>
-    <p>
-      <label>Pounds</label>
-      <input id="inputPounds" type="number" placeholder="Pounds"
-      oninput="PoundsToKgs(this.value)" onchange="PoundsToKgs(this.value)">
-    </p>
-    <p>Grams: <span id="InKgs"></span></p>
-}
+    <h1 >Weight Conversion</h1><br>
+    <br>
+    
+    <div style="text-align: center;">
 
+    <form>
+    <label id="ki" for="FAR">kilogram: </label>
+    <input type="number" step="any"step="any" min="0" name="FAR" id="Kilograms" required>
+    <br>
+    <br>
+    <br>
+
+    <button id="btn" type="button"  onclick="Conversion()"> calculate </button>
+   
+   <br>
+   <br>
+   <br>
+
+    <label id="cel" for="cel">Pounds:</label>
+
+    <input type="number" name="cel"  id="mycell" required>
+    <div class="container">
+
+        <!-- <div class="row">
+             <div class="col-lg-2">
+          <div class="image">
+             
+             <img src="tc.png" alt="image">
+          
+            </div>
+            </div> 
+            </div> -->
+    <!-- </div>
+    <iframe src="demo_iframe.htm" style="border:2px solid red;"></iframe>
+    </form> -->
+    </div>
+    <script src="converter.js"></script>
 </body>
 </html>
